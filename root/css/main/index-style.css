@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Dark Paradise';
+    src: url('../fonts/dark-paradise/DarkParadiseBold.woff2') format('woff2'),
+        url('../fonts/dark-paradise/DarkParadiseBold.woff') format('woff'),
+        url('../fonts/dark-paradise/DarkParadiseBold.ttf') format('truetype'),
+        url('../fonts/dark-paradise/DarkParadiseBold.svg#DarkParadiseBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'dark_paradiseitalic';
+    src: url('darkparadise-italic-webfont.woff2') format('woff2'),
+         url('darkparadise-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'italia_stdbold';
+    src: url('italiastd-bold-webfont.woff2') format('woff2'),
+         url('italiastd-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'italia_stdbook';
+    src: url('italiastd-book-webfont.woff2') format('woff2'),
+         url('italiastd-book-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'italia_stdmedium';
+    src: url('italiastd-medium-webfont.woff2') format('woff2'),
+         url('italiastd-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+nav{
+  position: fixed;
+  top: 15px;
+  right: 15px;
+}
