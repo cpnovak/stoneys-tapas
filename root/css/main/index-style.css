@@ -18,26 +18,26 @@
 }
 
 @font-face {
-    font-family: 'italia_stdbold';
-    src: url('italiastd-bold-webfont.woff2') format('woff2'),
-         url('italiastd-bold-webfont.woff') format('woff');
+    font-family: 'italia_std';
+    src: url('../fonts/italia_std/italiastd-bold-webfont.woff2') format('woff2'),
+         url('../fonts/italia_std/italiastd-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'italia_std';
+    src: url('../fonts/italia_std/italiastd-book-webfont.woff2') format('woff2'),
+         url('../fonts/italia_std/italiastd-book-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'italia_stdbook';
-    src: url('italiastd-book-webfont.woff2') format('woff2'),
-         url('italiastd-book-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'italia_stdmedium';
-    src: url('italiastd-medium-webfont.woff2') format('woff2'),
-         url('italiastd-medium-webfont.woff') format('woff');
-    font-weight: normal;
+    font-family: 'italia_std';
+    src: url('i../fonts/italia_std/taliastd-medium-webfont.woff2') format('woff2'),
+         url('../fonts/italia_std/italiastd-medium-webfont.woff') format('woff');
+    font-weight: lighter;
     font-style: normal;
 }
 
@@ -45,10 +45,4 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-}
-
-nav{
-  position: fixed;
-  top: 15px;
-  right: 15px;
 }

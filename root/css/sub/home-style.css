@@ -1,7 +1,7 @@
 .body_top{
 display: flex;
 justify-content: center;
-margin: 50px 10%;
+margin: 50px 5% 0 5%;
 }
 
 #brownie{
@@ -10,10 +10,28 @@ margin: 50px 10%;
   position: relative;
   top: 0px;
   left: 0px;
+  max-height: 80vh;
+  object-fit: cover;
 }
 
 #banner{
   position: absolute;
-  top: 100px;
+  top: 7%;
   margin: 0 30%;
+}
+
+#link_box{
+  display: flex;
+  justify-content: center;
+  margin: 20px 10%;
+  flex-wrap: wrap;
+}
+
+.link{
+  font-family: "italia_std", "Helvetica";
+  font-weight: normal;
+  font-size: 70px;
+  color: #ff6666;
+  padding: 0 3%;
+  text-decoration: none;
 }
