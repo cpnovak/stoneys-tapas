@@ -1,3 +1,7 @@
+body{
+  color: #FAF9F6;
+}
+
 .body_top{
 display: flex;
 justify-content: center;
