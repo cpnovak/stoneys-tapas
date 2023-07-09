@@ -1,41 +1,52 @@
-body{
-  color: #FAF9F6;
-}
-
-.body_top{
-display: flex;
-justify-content: center;
-margin: 50px 5% 0 5%;
-}
-
-#brownie{
-  border: 10px solid black;
-  border-radius: 100px;
-  position: relative;
-  top: 0px;
-  left: 0px;
-  max-height: 80vh;
-  object-fit: cover;
-}
-
-#banner{
-  position: absolute;
-  top: 7%;
-  margin: 0 30%;
-}
 
 #link_box{
   display: flex;
   justify-content: center;
-  margin: 20px 10%;
   flex-wrap: wrap;
 }
 
 .link{
   font-family: "italia_std", "Helvetica";
-  font-weight: normal;
-  font-size: 70px;
-  color: #ff6666;
-  padding: 0 3%;
+  font-weight: lighter;
+  font-size: 1.2em;
+  color: black;
   text-decoration: none;
+  text-transform: uppercase;
+  margin: 0 3%;
+}
+
+.hero_pic{
+display: flex;
+justify-content: center;
+border: 6px black;
+border-style: solid none;
+}
+
+#brownie{
+  max-height: 70vh;
+  object-fit: cover;
+}
+
+#banner{
+  position: absolute;
+  margin: 0 30%;
+}
+
+.where_box{
+  display: flex;
+  padding: 0 2%;
+  font-family: "Helvetica";
+  font-size: 1.4em;
+  background-color: #ff6666;
+  text-transform: uppercase;
+  border-bottom: 4px solid black;
+}
+
+.where_box > p{
+  padding: 5px 5px 5px 0;
+  border-right: 4px solid black;
+}
+
+#marquee{
+  padding: 5px 0 5px 5px;
 }
