@@ -2,31 +2,37 @@
 <html lang='en'>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <title>stoney's tapas</title>
     <link rel="icon" type="image/x-icon" href="images/global/favicon.ico">
     <link rel="stylesheet" href="css/main/index-style.css">
     <link rel="stylesheet" href="css/sub/home-style.css">
   </head>
 
-  <nav>
-    <div id='nav_box'>
-      <div id='nav_left'>
-        <img src='images/global/3.png' height='60px'>
-      </div>
-      <div id='nav_right'>
-        <a class='link' href='recipes/index.html'>recipes</a>
-        <a class='link' href='articles/index.html'>articles</a>
-        <a class='link' href='photos/index.html'>photos</a>
-        <a class='link' href='about/index.html'>about</a>
-        <a class='link' href='store/index.html'>store</a>
-      </div>
-    </div>
-  </nav>
-
   <body>
+
+    <nav>
+      <div id='nav_box'>
+        <div id='nav_left'>
+          <img src='images/global/3.png' height='60px'>
+        </div>
+        <div id='nav_right'>
+          <div id='link_box'>
+            <a class='link' href='articles/index.html'>articles</a>
+            <a class='link' href='recipes/index.html'>recipes</a>
+            <a class='link' href='photography/index.html'>photography</a>
+            <a class='link' href='about/index.html'>about</a>
+            <a class='link' href='contact/index.html'>contact</a>
+            <a class='link' href='store/index.html'>store</a>
+          </div>
+          <a id='ig_link' href='https://www.instagram.com/stoneystapas/'><img src='images/home/instagram_icon.svg' height='30px'></a>
+        </div>
+      </div>
+    </nav>
+
     <div class='hero_pic'>
-      <img id='brownie' src='images/home/brownie_bg.jpg' width="100%">
-      <img id='banner' src='images/home/wiggle_banner.svg'>
+      <img id='brownie' src='images/home/brownie_bg.jpg' width="100%"/>
+      <img id='banner' src='images/home/wiggle_banner.svg'/>
     </div>
     <div class='where_box'>
       <p>where in the world is it 4:20: </p>
@@ -35,21 +41,49 @@
       </div>
     </div>
 
-    <div class='breaking'>
-      <div class='title recent'>
-        <h1>what's new</h1>
-      </div>
 
-      <div class='content_recent'>
-        <div class='description'>
-          <p>a description of the recent content will go here</p>
+    <main>
+      <section class='breaking'>
+        <h1 class='title recent'>what's new</h1>
+        <div id='recent_box'>
+          <div id='recent_copy'>
+            <a id='recent_title' href='https://busboy.substack.com/p/in-defense-of-pumpernickel'>Read Stogna's Bologna's latest "In Defense of Pumpernickel" for Busboy!</a>
+            <p class='recent_body'>“Everything else in your bagel sandwich contributes to the flavor, why not the bread?  Pumpernickel is no topping, thrust upon the bagel once it’s nearly finished cooking.  It’s baked in, imbuing its flavor in every rich, malted, bite."</p>
+          </div>
+            <a href='https://busboy.substack.com/p/in-defense-of-pumpernickel'><img id='image_recent' src='images/articles/pumpernickel/pumpernickel_hero.jpg'></a>
         </div>
+      </section>
 
-        <div id='img_placeholder'>
-        </div>
-      </div>
-    </div>
+      <section id='hero_boxes'>
+        <a class='box articles' href='articles/index.html'>articles</a>
+
+        <a class='article_link one' href='articles/index.html'>
+          <img class='article_photo' src='images/articles/evas/articles_lander.jpg' width='100%'>
+          <span class='link_text'>A Night With Eva's Supper Club</span></a>
+        <a class='article_link two' href='articles/index.html'>
+          <img class='article_photo' src='images/articles/pumpernickel/reciept.jpeg' width='100%'>
+          <span class='link_text'>In Defense of Pumpernickel</span></a></a>
+        <a class='article_link three' href='articles/index.html'>
+          <img class='article_photo' src='images/articles/smoking_games/sg_icon.jpg' width='100%'>
+          <span class='link_text'>Smoking Games</span></a></a>
+
+        <a class='box recipes' href='recipes/index.html'>recipes</a>
+        <a class='box photography' href='photography/index.html'>photography</a>
+        <a class='box about' href='about/index.html'>about</a>
+        <a class='box contact' href='contact/index.html'>contact</a>
+        <a class='box store' href='store/index.html'>store</a>
+      </section>
+
+
+
+
+
+
+    </main>
+
+
 
 
   </body>
+
 </html>
