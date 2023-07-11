@@ -189,7 +189,7 @@ border-style: solid none;
   background-color: #B2D6FF;
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 1000px) {
   .article_link{
     width: 33.3%;
     border-right: 2px solid black;
