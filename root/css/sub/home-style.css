@@ -21,11 +21,11 @@
 #link_box{
   display: flex;
   justify-content: flex-end;
-  margin-right: 18%;
+  margin-right: 10%;
 }
 
 #ig_link{
-  margin: -1px 0 -3px 0;
+  margin: 0 0 -5px 0;
 }
 
 .link{
@@ -142,16 +142,29 @@ border-style: solid none;
   border-width: 2px 0;
 }
 
+.about,
+.contact{
+  width: 50%;
+}
+
+/* borders */
+.photography,
+.about{
+  border-right: 2px solid black;
+}
+
+.two{
+  border: none;
+}
+/* end */
+
+
+/* photo link design */
 .main_link{
   display: flex;
   position: relative;
   text-decoration: none;
   color: black;
-}
-
-.main_link_photo{
-  height: 400px;
-  object-fit: cover;
 }
 
 .link_text{
@@ -165,10 +178,19 @@ border-style: solid none;
   margin-right: 15px;
 }
 
-.one{
+.main_link_photo{
+  height: 400px;
+  object-fit: cover;
   border-right: 2px solid black;
 }
 
+.full_size_photo{
+  height: 600px;
+}
+/* end */
+
+
+/* widths for full screen*/
 .one,
 .two{
   width: 50%;
@@ -178,9 +200,14 @@ border-style: solid none;
   display: none;
 }
 
+.full_size{
+  width: 100%;
+}
+/* end */
+
+/* title box colors */
 .recipes{
   background-color: #D6E9FE;
-  border-top: 2px solid black;
 }
 
 .photography{
@@ -198,38 +225,59 @@ border-style: solid none;
 .store{
   background-color: #B2D6FF;
 }
+/* end */
 
 
 
 
 @media only screen and (min-width: 1000px) {
-  .main_link{
-    width: 33.3%;
-    border-right: 2px solid black;
-  }
+.main_link{
+  width: 33.333%;
+}
+
+.half_size{
+  width: 50%;
+}
 
 .main_link_photo{
   height: 600px;
+}
+
+.full_size{
+  width: 100%;
+}
+
+.full_size_photo{
+  height: 100%;
 }
 
 .link_text{
   font-size: 1.2vw;
 
 }
-  .three{
-    border-right: none;
-  }
 
-  .two,
-  .three{
-    display: flex;
-  }
+.three{
+  border: none;
+}
 
-  .photography,
-  .about,
-  .contact,
-  .store{
-    width: 50%;
-  }
+.two,
+.three{
+  display: flex;
+}
+
+.photography,
+.interviews,{
+  width: 50%;
+}
+
+/* border for titles when full-screen */
+.contact{
+  border-top: 2px solid black;
+}
+
+.about{
+  border-right: 2px solid black;
+}
+/* end */
 
 }
